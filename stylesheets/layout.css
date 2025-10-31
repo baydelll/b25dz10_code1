@@ -4,24 +4,24 @@
 
 body {
     width: 1278px;
-    height: 4663px;
+    height: 4672px;
     position: relative;
     background-color: #FF8096;
 }
 
 
-body::after {
+    /*body::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-image: url("../images/muzeynovee1.png");
     width: 1278px;
-    height: 4663px;
+    height: 4672px;
     opacity: 0.2;
     /*z-index: -1;*/
+    
 
-}
 
 .section1{
     width: 1278px;
@@ -37,9 +37,9 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 30px;
-    left: 555px;
-    top: 112px;
+    font-size: 29px;
+    left: 540px;
+    top: 115px;
     color: #273A5F;
     z-index: 2;
 }
@@ -49,10 +49,10 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 19px;
+    font-size: 20px;
     left: 354px;
-    top: 216px;
-    color: #273A5F; 
+    top: 217px;
+    color: #273A5F;
     z-index: 3;
 }
 
@@ -62,9 +62,9 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 19px;
-    right: 64px;
-    top: 545px;
+    font-size: 20px;
+    right: 82px;
+    top: 546px;
     color: #273A5F;
     z-index: 4;
 }
@@ -75,9 +75,9 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 19px;
-    left: 15px;
-    top: 545px;
+    font-size: 20px;
+    right: 10px;
+    top: 546px;
     color: #273A5F;
     z-index: 4;
 }
@@ -88,9 +88,9 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 19px;
-    left: 90px;
-    top: 545px;
+    font-size: 20px;
+    left: 63px;
+    top: 546px;
     color: #273A5F;
     z-index: 4;
 }
@@ -101,20 +101,18 @@ body::after {
     display: inline-block;
     font-family: 'Brioni Pro';
     font-style: normal;
-    font-size: 19px;
-    left: 168px;
-    top: 545px;
+    font-size: 20px;
+    left: 136px;
+    top: 546px;
     color: #273A5F;
     z-index: 4;
 }
 
 .muzei {
     position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 236px;
-    padding-top: 25px;
-    z-index: 0.5;
+    left: 28px;
+    top: 24px;
+    z-index: 1;
 
 }
 
@@ -125,7 +123,7 @@ body::after {
     display: inline-block;
     top: 0;
     left: 0;
-    left: 400px;
+    left: 390px;
     top: 327px;
     z-index: 3;
 }
@@ -137,6 +135,548 @@ body::after {
 }
 .zvezda2 {
     position: absolute;
-    top: 300px;
+    top: 235px;
     left: 0px;
 }
+
+.zvezda3{
+    position: absolute;
+    top: 976px;
+    left: 0px;
+}
+
+.zvezda4 {
+    position: absolute;
+    top: 710px;
+    right: 0px;
+}
+
+.muzik{
+    position: absolute;
+    display: inline-block;
+    left: 236px;
+    top: 743px;
+    z-index: 7;
+}
+
+.lupa{
+    position: absolute;
+    display: inline-block;
+    left: 812px;
+    top: 1081px;
+    z-index: 8;
+}
+
+.ticket{
+    position: absolute;
+    display: inline-block;
+    left: 238px;
+    top: 996px;
+    z-index: 3;
+}
+
+.history{
+    
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    left: 461px;
+    top: 659px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.dya{
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 20px;
+    left: 102px;
+    top: 738px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.krupno{
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 28px;
+    left: 272px;
+    top: 1015px;
+    color: #273A5F;
+    z-index: 11;
+}
+
+.vistavka {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 26px;
+    left: 98px;
+    top: 908px;
+    color: #273A5F;
+    z-index: 11;
+}
+
+.okt {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 26px;
+    left: 204px;
+    top: 908px;
+    color: #273A5F;
+    z-index: 11;
+}
+
+.gorod {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 26px;
+    left: 275px;
+    top: 908px;
+    color: #273A5F;
+    z-index: 11;
+}
+
+.about1{
+    
+    position: relative;
+    width: 532px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 20px;
+    right: 155px;
+    top: 833px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.about2 {
+
+    position: relative;
+    width: 532px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 19px;
+    right: 292px;
+    top: 1015px;
+    color: #273A5F;
+    z-index: 4;
+}
+
+.about3 {
+
+    position: relative;
+    width: 575px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 19px;
+    left: 274px;
+    top: 1015px;
+    color: #273A5F;
+    z-index: 4;
+}
+
+.bukvi{
+    position: absolute;
+    display: inline-block;
+    left: 921px;
+    top: 1140px;
+    z-index: 15;
+}
+
+.golova{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 1580px;
+    z-index: 15;
+}
+.golova2 {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 1580px;
+    z-index: 15;
+}
+.bolsh {
+    position: absolute;
+    display: inline-block;
+    left: 362px;
+    top: 1527px;
+    z-index: 15;
+}
+.krug1 {
+    position: absolute;
+    display: inline-block;
+    left: 482px;
+    top: 1570px;
+    z-index: 15;
+}
+.krug2 {
+    position: absolute;
+    display: inline-block;
+    left: 700px;
+    top: 1682px;
+    z-index: 15;
+}
+.krug3 {
+    position: absolute;
+    display: inline-block;
+    left: 395px;
+    top: 1748px;
+    z-index: 15;
+}
+.krug4 {
+    position: absolute;
+    display: inline-block;
+    left: 735px;
+    top: 1823px;
+    z-index: 15;
+}
+.osobennosti {
+
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    right: 163px;
+    top: 1180px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tap1{
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 23px;
+    right: 558px;
+    top: 1295px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tap2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 23px;
+    left: 693px;
+    top: 1350px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tap3 {
+    width: 117px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 23px;
+    left: 611px;
+    top: 1661px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tap4 {
+    width: 187px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 23px;
+    left: 116px;
+    top: 1595px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.yaziki {
+
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    right: 51px;
+    top: 1798px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.kover {
+    position: absolute;
+    display: inline-block;
+    left: 130px;
+    top: 2453px;
+    z-index: 0.5;
+}
+
+.vazi {
+    position: absolute;
+    display: inline-block;
+    left: 390px;
+    top: 2200px;
+    z-index: 15;
+}
+
+.yazik {
+    position: absolute;
+    display: inline-block;
+    left: 246px;
+    top: 2579px;
+    z-index: 15;
+}
+
+.vetki {
+    position: absolute;
+    display: inline-block;
+    left: 67px;
+    top: 2168px;
+    z-index: 15;
+}
+
+.shlem1 {
+    position: absolute;
+    display: inline-block;
+    left: 290px;
+    top: 2900px;
+    z-index: 1;
+}
+.shlem2 {
+    position: absolute;
+    display: inline-block;
+    left: 601px;
+    top: 2889px;
+    z-index: 1;
+}
+
+.kope1 {
+    position: absolute;
+    display: inline-block;
+    right: 60px;
+    top: 2880px;
+    z-index: 1;
+}
+
+.kope2 {
+    position: absolute;
+    display: inline-block;
+    right: 30px;
+    top: 3023px;
+    z-index: 1;
+}
+
+.kope3 {
+    position: absolute;
+    display: inline-block;
+    right: 90px;
+    top: 2903px;
+    z-index: 1;
+}
+
+.kope4 {
+    position: absolute;
+    display: inline-block;
+    left: 150px;
+    top: 2845px;
+    z-index: 1;
+}
+
+.kope5 {
+    position: absolute;
+    display: inline-block;
+    left: 125px;
+    top: 2980px;
+    z-index: 1;
+}
+
+.kope6 {
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 2880px;
+    z-index: 1;
+}
+
+.nachert {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    left: 440px;
+    top: 2438px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.gliphs {
+
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    right: 150px;
+    top: 3153px;
+    color: #273A5F;
+    z-index: 4;
+}
+
+.simvoli {
+
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    left: 290px;
+    top: 3295px;
+    color: #273A5F;
+    transform: rotate(-1.5deg);
+    z-index: 4;
+}
+
+.svitok {
+    position: absolute;
+    display: inline-block;
+    left: 60px;
+    top: 3450px;
+    z-index: 1;
+}
+.svitok2 {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 3340px;
+    z-index: 1;
+}
+.glifi {
+    position: absolute;
+    display: inline-block;
+    left: 155px;
+    top: 3600px;
+    z-index: 1;
+}
+.simvol {
+    position: absolute;
+    display: inline-block;
+    left: 860px;
+    top: 3700px;
+    z-index: 1;
+}
+
+.citat  {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 45px;
+    left: 110px;
+    top: 3859px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.citat2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 23px;
+    right: 399px;
+    top: 3904px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.dama {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 4055px;
+    z-index: 0.5;
+}
+
+.ya {
+    position: absolute;
+    display: inline-block;
+    left: 83px;
+    top: 4493px;
+    z-index: 2;
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    left: 255px;
+    top: 4570px;
+    z-index: 2;
+}
+
+.tg1 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 19px;
+    left: 258px;
+    top: 4080px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tg2 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 19px;
+    left: 104px;
+    top: 4104px;
+    color: #ffffff;
+    z-index: 4;
+}
+
+.tg3 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Brioni Pro';
+    font-style: normal;
+    font-size: 19px;
+    right: 153px;
+    top: 4127px;
+    color: #ffffff;
+    z-index: 4;
+}
+
