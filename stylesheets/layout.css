@@ -6,6 +6,7 @@ body {
     width: 1278px;
     height: 4672px;
     position: relative;
+    overflow-x: hidden;
     background-color: #FF8096;
 }
 
